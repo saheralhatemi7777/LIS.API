@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\asp.netCoreApi\\LIS.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\testresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\testresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\testcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\testcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\settingsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\settingsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\requesttestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\requesttestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\recuestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\recuestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\recordrequesttestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\recordrequesttestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\recordpatientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\recordpatientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\ready_made_testscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\ready_made_testscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\controllers\\doctoractivitydtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\controllers\\doctoractivitydtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|e:\\asp.netcoreapi\\lis.api\\lis.api\\lis.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AB31F4FC-07F4-4960-8889-3521CC19DCBE}|LIS.API\\LIS.API.csproj|solutionrelative:lis.api\\lis.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Program.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Program.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Program.cs",
+              "RelativeToolTip": "LIS.API\\Program.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:57:42.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:57:09.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestResultController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\TestResultController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\TestResultController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\TestResultController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\TestResultController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:57:05.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\TestController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\TestController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:57:00.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestCategoryController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\TestCategoryController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\TestCategoryController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\TestCategoryController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\TestCategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:56:55.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\PatientController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAowL4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:52:23.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Data\\DbContext.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Data\\DbContext.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Data\\DbContext.cs",
+              "RelativeToolTip": "LIS.API\\Data\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:57:36.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\StatisticsController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:56:51.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SettingSystemController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\SettingSystemController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\SettingSystemController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\SettingSystemController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\SettingSystemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:56:46.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\RoleController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:56:43.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RequestTestController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\RequestTestController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\RequestTestController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\RequestTestController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\RequestTestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:56:37.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RecuestsController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\RecuestsController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\RecuestsController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\RecuestsController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\RecuestsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:56:31.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RecordRequestTestController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\RecordRequestTestController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\RecordRequestTestController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\RecordRequestTestController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\RecordRequestTestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:52:46.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RecordPatientsController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\RecordPatientsController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\RecordPatientsController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\RecordPatientsController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\RecordPatientsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:52:40.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Ready_made_TestsController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\Ready_made_TestsController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\Ready_made_TestsController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\Ready_made_TestsController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\Ready_made_TestsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:52:32.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OperationsController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\OperationsController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\OperationsController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\OperationsController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\OperationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:52:17.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DoctorActivityDtoController.cs",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\DoctorActivityDtoController.cs",
+              "RelativeDocumentMoniker": "LIS.API\\Controllers\\DoctorActivityDtoController.cs",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\Controllers\\DoctorActivityDtoController.cs",
+              "RelativeToolTip": "LIS.API\\Controllers\\DoctorActivityDtoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:48:29.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LIS.API",
+              "DocumentMoniker": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\LIS.API.csproj",
+              "RelativeDocumentMoniker": "LIS.API\\LIS.API.csproj",
+              "ToolTip": "E:\\asp.netCoreApi\\LIS.API\\LIS.API\\LIS.API.csproj",
+              "RelativeToolTip": "LIS.API\\LIS.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-27T06:48:19.326Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
