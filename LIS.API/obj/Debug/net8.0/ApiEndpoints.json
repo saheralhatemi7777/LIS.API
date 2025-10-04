@@ -1,0 +1,1148 @@
+[
+  {
+    "ContainingType": "APiUsers.Controllers.DoctorActivityDtoController",
+    "Method": "GetMostActiveDoctors",
+    "RelativePath": "api/DoctorActivityDto/MostActiveDoctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.OperationsController",
+    "Method": "AddOperations",
+    "RelativePath": "api/Operations/AddOperations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "APiUsers.DTOs.DTOAddOperations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.OperationsController",
+    "Method": "GetAllOperations",
+    "RelativePath": "api/Operations/GetAllOperations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.OperationsController",
+    "Method": "GetAllOperationsbyname",
+    "RelativePath": "api/Operations/GetAllOperationsbyname",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.PatientController",
+    "Method": "GetAllpatients",
+    "RelativePath": "api/Patient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[\u0645\u0634\u0631\u0648\u0639_\u0627\u062F\u0627\u0631_\u0627\u0644\u0645\u062E\u062A\u0628\u0631\u0627\u062A.Models.Patient, LIS.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.PatientController",
+    "Method": "Addpatients",
+    "RelativePath": "api/Patient/Addpatients",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "APiUsers.DTOs.DTOCreatePatient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.PatientController",
+    "Method": "Deletepatients",
+    "RelativePath": "api/Patient/by",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.PatientController",
+    "Method": "GetpatientsById",
+    "RelativePath": "api/Patient/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.PatientController",
+    "Method": "Login",
+    "RelativePath": "api/Patient/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "APiUsers.Controllers.LoginDtO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "\u0645\u0634\u0631\u0648\u0639_\u0627\u062F\u0627\u0631_\u0627\u0644\u0645\u062E\u062A\u0628\u0631\u0627\u062A.Models.Patient",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.PatientController",
+    "Method": "Upatepatients",
+    "RelativePath": "api/Patient/patientid",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dTO",
+        "Type": "APiUsers.DTOs.DTOCreatePatient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.PatientController",
+    "Method": "SearshByName",
+    "RelativePath": "api/Patient/Samples/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.Ready_made_TestsController",
+    "Method": "GetAllDataGroupedByPatientName",
+    "RelativePath": "api/Ready_made_Tests/GetAllDataGroupedByPatientName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.Ready_made_TestsController",
+    "Method": "GetAllDataGroupedByPatient",
+    "RelativePath": "api/Ready_made_Tests/GetAllDataRequestTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecordPatientsController",
+    "Method": "AddRecurd",
+    "RelativePath": "api/RecordPatients/AddRecurd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recordPatients",
+        "Type": "DTORecordPatients",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecordPatientsController",
+    "Method": "GetAllRecords",
+    "RelativePath": "api/RecordPatients/GetAllRecurde",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DTORecordPatients, LIS.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecordPatientsController",
+    "Method": "AddRecurd",
+    "RelativePath": "api/RecordPatients/GOToRecurdByID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Patientid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecordRequestTestController",
+    "Method": "AddRecordRequestTest",
+    "RelativePath": "api/RecordRequestTest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recordRequestTest",
+        "Type": "APiUsers.DTOs.DTOAddRecordRequestTest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecordRequestTestController",
+    "Method": "GetAllRecordRequestByiDTest",
+    "RelativePath": "api/RecordRequestTest/GetAllRecordRequestByiDTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecordRequestTestController",
+    "Method": "GetAllRecordRequestTest",
+    "RelativePath": "api/RecordRequestTest/GetAllRecordRequestTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecordRequestTestController",
+    "Method": "GetAllRecordRequestTestByName",
+    "RelativePath": "api/RecordRequestTest/GetAllRecordRequestTestByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecuestsController",
+    "Method": "AddRecuests",
+    "RelativePath": "api/Recuests/AddNewRecuests",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "APiUsers.DTOs.DTOSample.DTOAddRecuests",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecuestsController",
+    "Method": "DeleteRecuests",
+    "RelativePath": "api/Recuests/DeleteRecuests",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[\u0645\u0634\u0631\u0648\u0639_\u0627\u062F\u0627\u0631_\u0627\u0644\u0645\u062E\u062A\u0628\u0631\u0627\u062A.Models.Recuests, LIS.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecuestsController",
+    "Method": "Edit",
+    "RelativePath": "api/Recuests/EditRecuests",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dTO",
+        "Type": "APiUsers.DTOs.DTORequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecuestsController",
+    "Method": "EditRecuestsStatus",
+    "RelativePath": "api/Recuests/EditRecuestsStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecuestsController",
+    "Method": "GetAllRecuests",
+    "RelativePath": "api/Recuests/GetAllRecuests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APiUsers.DTOs.DTORequest, LIS.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecuestsController",
+    "Method": "GetRecuestsByiD",
+    "RelativePath": "api/Recuests/GetRecuestsByiD",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RecuestsController",
+    "Method": "SearshByName",
+    "RelativePath": "api/Recuests/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RequestTestController",
+    "Method": "Index",
+    "RelativePath": "api/RequestTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RequestTestController",
+    "Method": "AddNewRequestTest",
+    "RelativePath": "api/RequestTest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestTests",
+        "Type": "APiUsers.DTOs.DTORequestTest.DTORequestTest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RequestTestController",
+    "Method": "DeleteRequestTest",
+    "RelativePath": "api/RequestTest",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RequestTestController",
+    "Method": "GetAllDataRequestTest",
+    "RelativePath": "api/RequestTest/GetAllDataRequestTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RequestTestController",
+    "Method": "GetAllDataRequestTestbyid",
+    "RelativePath": "api/RequestTest/GetAllDataRequestTestbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RequestTestController",
+    "Method": "GetByid",
+    "RelativePath": "api/RequestTest/GetByid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RoleController",
+    "Method": "AddRole",
+    "RelativePath": "api/Role/AddRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "APiUsers.DTOs.DTORole.DTORole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RoleController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/Role/DeleteRoles",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RoleController",
+    "Method": "EditRole",
+    "RelativePath": "api/Role/EditRoles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "role",
+        "Type": "APiUsers.DTOs.DTORole.DTORole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.RoleController",
+    "Method": "GetAllData",
+    "RelativePath": "api/Role/GetAllData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.SettingSystemController",
+    "Method": "Create",
+    "RelativePath": "api/SettingSystem/AddSettingSystem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setting",
+        "Type": "APiUsers.DTOs.DTOSettingSystem.DTOSettingSystem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.SettingSystemController",
+    "Method": "GetAllSettingData",
+    "RelativePath": "api/SettingSystem/GetAllSettingData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.SettingSystemController",
+    "Method": "GetAllSettingDataByid",
+    "RelativePath": "api/SettingSystem/GetAllSettingDataByid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.StatisticsController",
+    "Method": "GetDoctorStats",
+    "RelativePath": "api/Statistics/DoctorStats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.StatisticsController",
+    "Method": "GetMostActiveUsers",
+    "RelativePath": "api/Statistics/MostActiveUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.StatisticsController",
+    "Method": "GetRevenueStats",
+    "RelativePath": "api/Statistics/RevenueStats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.StatisticsController",
+    "Method": "GetTestStats",
+    "RelativePath": "api/Statistics/TestStats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestController",
+    "Method": "AddNewTestType",
+    "RelativePath": "api/Test/AddTestType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "APiUsers.DTOs.DTOAddTestType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestController",
+    "Method": "DeleteTest",
+    "RelativePath": "api/Test/DeleteTest",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestController",
+    "Method": "EditeTest",
+    "RelativePath": "api/Test/EditTest",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dTO",
+        "Type": "APiUsers.DTOs.DTOAddTestType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestController",
+    "Method": "GetTestById",
+    "RelativePath": "api/Test/GetTestById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestController",
+    "Method": "GetTestByListId",
+    "RelativePath": "api/Test/GetTestByListId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestController",
+    "Method": "GetTest",
+    "RelativePath": "api/Test/GetTestByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestController",
+    "Method": "GetTestListById",
+    "RelativePath": "api/Test/GetTestListById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestController",
+    "Method": "Index",
+    "RelativePath": "api/Test/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[\u0645\u0634\u0631\u0648\u0639_\u0627\u062F\u0627\u0631_\u0627\u0644\u0645\u062E\u062A\u0628\u0631\u0627\u062A.Models.Test, LIS.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestCategoryController",
+    "Method": "Index",
+    "RelativePath": "api/TestCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestCategoryController",
+    "Method": "DeleteTestCategorys",
+    "RelativePath": "api/TestCategory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestCategoryController",
+    "Method": "AddNewTestCategory",
+    "RelativePath": "api/TestCategory/AddNewTestCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "\u0645\u0634\u0631\u0648\u0639_\u0627\u062F\u0627\u0631_\u0627\u0644\u0645\u062E\u062A\u0628\u0631\u0627\u062A.Models.TestCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestCategoryController",
+    "Method": "EditCategory",
+    "RelativePath": "api/TestCategory/EditCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dTOTestCategory",
+        "Type": "APiUsers.DTOs.TestCategory.DTOTestCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestCategoryController",
+    "Method": "GetTestCategoryBy",
+    "RelativePath": "api/TestCategory/GetTestCategoryBy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestCategoryController",
+    "Method": "SearshByName",
+    "RelativePath": "api/TestCategory/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestResultController",
+    "Method": "AddNewTestResults",
+    "RelativePath": "api/TestResult/AddNewTestResults",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testResult",
+        "Type": "APiUsers.DTOs.DTOTestRsults.DTOSaveTestResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestResultController",
+    "Method": "GetAllTestResult",
+    "RelativePath": "api/TestResult/GetAllTestResult",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.TestResultController",
+    "Method": "GetAllTestResultByRequestTestId",
+    "RelativePath": "api/TestResult/GetAllTestResultByRequestTestId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.UsersController",
+    "Method": "AddUsers",
+    "RelativePath": "api/Users/AddUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "APiUsers.DTOs.DTOCreateUsers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "\u0645\u0634\u0631\u0648\u0639_\u0627\u062F\u0627\u0631_\u0627\u0644\u0645\u062E\u062A\u0628\u0631\u0627\u062A.Models.Users",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.UsersController",
+    "Method": "SearshByiD",
+    "RelativePath": "api/Users/byiD",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iD",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Users/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.UsersController",
+    "Method": "EditmyAccount",
+    "RelativePath": "api/Users/EditmyAccount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dTO",
+        "Type": "APiUsers.DTOs.DTOEditUsers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "api/Users/GetUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "\u0645\u0634\u0631\u0648\u0639_\u0627\u062F\u0627\u0631_\u0627\u0644\u0645\u062E\u062A\u0628\u0631\u0627\u062A.Models.Users",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.UsersController",
+    "Method": "GetAllByRole",
+    "RelativePath": "api/Users/GetUserBbyRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[\u0645\u0634\u0631\u0648\u0639_\u0627\u062F\u0627\u0631_\u0627\u0644\u0645\u062E\u062A\u0628\u0631\u0627\u062A.Models.Users, LIS.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "APiUsers.Controllers.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.UsersController",
+    "Method": "SearshByName",
+    "RelativePath": "api/Users/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APiUsers.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Users/UpdateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dTO",
+        "Type": "APiUsers.DTOs.DTOEditUsers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
